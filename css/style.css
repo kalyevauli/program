@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo a{
+   margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.navbar-logo select{
+    margin: 30px;
+}
+.navbar-icon img{
+    margin: 20px;
+    color: black;
+}
+#navbar{
+    background: rgba(255, 255, 255, 0.49);
+}
+.navbar-icon img{
+    width: 50px;
+    height: 20px;
+}
+.navbar-logo select{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    border: none;
+    outline: none;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title-h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.hero-title-h2{
+    font-weight: 600;
+    font-size: 60px;
+    color: red;
+}
+.hero-title p{
+    padding: 30px 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.hero-title-btn{
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: red;
+}
+.hero-title-btn:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: white;
+    color: red;
+    cursor: pointer;
+}
+.figma{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.figma-title-h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+.figma-title-h2{
+    font-weight: 400;
+    font-size: 40px;
+    color: red;
+    line-height: 54px;
+}
+.container-h1{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 20px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-title h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: red;
+    padding: 20px 15px;
+}
+.service-title p{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 20px 25px 0;
+}
+.service-title-btn{
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: red;
+}
+.service-title-btn:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: white;
+    color: red;
+    cursor: pointer;
+}
+.disk{
+    display: flex;
+    align-items: center;
+}
+.disk-title h1{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.disk-title p{
+    line-height: 25px;
+}
+.disk-title{
+    margin: 60px;
+}
+.com h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#com{
+    margin: 30px;
+    background: red;
+}
